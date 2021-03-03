@@ -1,0 +1,57 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "V12BotList",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^0.22.0",
+    "discord.js": "^12.5.1",
+    "discordbotlari-api": "^0.0.15",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "^0.0.2",
+    "helmet": "^4.4.1",
+    "highlight.js": "^10.4.1",
+    "html-tags": "^3.1.0",
+    "level-session": "^0.3.4",
+    "level-session-store": "^2.2.0",
+    "marked": "^2.0.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.17",
+    "ms": "^2.1.3",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "node-superfetch": "^0.1.11",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.2",
+    "request": "^2.88.2",
+    "url": "^0.11.0",
+    "useful-tools": "^0.2.6",
+    "window": "^4.2.7",
+    "novelcovid": "^3.0.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
